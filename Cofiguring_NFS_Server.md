@@ -9,6 +9,7 @@ Install the nfs-kernel-server package to enable NFS server functionality:
 `sudo apt install nfs-kernel-server`
 
 <b>Make a directory to create the path<b>
+
 `sudo mkdir -p /mnt/nfs_share`
 
 
