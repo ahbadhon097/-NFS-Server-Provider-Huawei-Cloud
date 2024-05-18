@@ -1,31 +1,31 @@
 Installing NFS server in a Ubuntu VM 
 
-<b>Update Package Lists:<b>
+Update Package Lists:
 
 Ensure you have the latest package lists: 
 
 `sudo apt update` 
 
-<b>Install NFS Server Package:<b>
+Install NFS Server Package:
 
 Install the nfs-kernel-server package to enable NFS server functionality:
 
 `sudo apt install nfs-kernel-server`
 
-<b>You may use the following command at a terminal prompt to launch the NFS server<b>
+You may use the following command at a terminal prompt to launch the NFS server
 
 `sudo systemctl start nfs-kernel-server.service`
 
-<b>Make a directory to create the path<b>
+Make a directory to create the path
 
 `sudo mkdir -p /mnt/nfs_share`
 
-<b>Change the ownership for new group and new user for the directory `/mnt/nfs_share`<b>
+Change the ownership for new group and new user for the directory `/mnt/nfs_share`
 
 `sudo chmod 777 /mnt/nfs_share`
 
 
-<b>Then launch editor to  edit `/etc/exports` file for modifying the system configuration <b>
+Then launch editor to  edit `/etc/exports` file for modifying the system configuration 
 
 On your ubuntu system, the NFS server is configured via the `/etc/exports` file. It details the directories you wish to share and the permissions for other devices on the network to access those directories.
 
@@ -35,11 +35,11 @@ After executing editor , we've to give the path of the directory where we want t
 
 `mnt/nfs_share <your NFS_server_ip>(rw,sync,no_subtree)`
 
-<b> Apply the new config via:<b>
+ Apply the new config via:
 
 `sudo exportfs -a`
 
-<b>Now, You may use the following command at a terminal prompt to restart the NFS server<b>
+Now, You may use the following command at a terminal prompt to restart the NFS server
 
 `sudo systemctl restart nfs-kernel-server`
 
@@ -47,7 +47,7 @@ then the below command, sudo ufw allow from the dedicated to any port nfs, is us
 
 `sudo ufw allow from 192.143.12.4 to any port nfs`
 
-<b>Important Consideration:<b>
+Important Consideration:
 Crucial Points to Remember:
 
 Specificity: Although this command permits access from a single IP, if you need to permit access froTo start the NFS server, you can run the following command at a terminal prompt:m several computers, you might want to use a subnet or firewall groups.
@@ -58,7 +58,7 @@ Security: It may not always be the best idea to provide access from any port usi
 
 Configuring the NFS Server: Keep in mind that this operation simply sets up the firewall. Additionally, you must set up the NFS server itself using tools like rpc.mountd or the configuration settings in your NFS server software to permit access from the designated IP address or subnet.
 
-<b> Enable the uncomplicate firewall <b>
+Enable the uncomplicate firewall 
 Once we start the activity of the firewall we've to remember that the SSH connection could be interrupt.So before leaving the virtual machine or local server we need to disable the firewall.
 
 `sudo ufw enable `
@@ -67,7 +67,7 @@ for disable the firewall
 
 `sudo ufw disable `
 
-<b>Now we can check the status of the firewall<b>
+Now we can check the status of the firewall
 
 `sudo ufw status `
 
