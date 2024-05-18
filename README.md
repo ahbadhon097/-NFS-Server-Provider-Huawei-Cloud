@@ -1,2 +1,6 @@
 # -NFS-Server-Provider-Huawei-Cloud
-Setting up NFS server and its storage provide by Cloud Container Engine
+Setting up NFS server in a ubuntu virtual machine and the storage provides by Cloud Container Engine
+
+
+
+ 
