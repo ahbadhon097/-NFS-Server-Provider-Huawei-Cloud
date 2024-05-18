@@ -5,12 +5,15 @@ Update Package Lists:
 Ensure you have the latest package lists: 
 
 `sudo apt update` 
+------------------------
 
 Install NFS Server Package:
 
 Install the nfs-kernel-server package to enable NFS server functionality:
 
 `sudo apt install nfs-kernel-server`
+
+--------------------
 
 You may use the following command at a terminal prompt to launch the NFS server
 
