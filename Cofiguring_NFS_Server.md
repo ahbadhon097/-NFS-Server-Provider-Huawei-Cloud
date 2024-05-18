@@ -5,6 +5,7 @@ Update Package Lists:
 Ensure you have the latest package lists: 
 
 `sudo apt update` 
+
 --------------------
 
 Install NFS Server Package:
@@ -75,7 +76,8 @@ Security: It may not always be the best idea to provide access from any port usi
 Configuring the NFS Server: Keep in mind that this operation simply sets up the firewall. Additionally, you must set up the NFS server itself using tools like rpc.mountd or the configuration settings in your NFS server software to permit access from the designated IP address or subnet.
 
 --------------------
-Enable the uncomplicate firewall 
+Enable the uncomplicate firewall :
+
 Once we start the activity of the firewall we've to remember that the SSH connection could be interrupt.So before leaving the virtual machine or local server we need to disable the firewall.
 
 `sudo ufw enable `
