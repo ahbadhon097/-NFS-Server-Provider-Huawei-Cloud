@@ -35,19 +35,24 @@ After executing editor , we've to give the path of the directory where we want t
 
 `mnt/nfs_share <your NFS_server_ip>(rw,sync,no_subtree)`
 
+
  Apply the new config via:
 
 `sudo exportfs -a`
+
 
 Now, You may use the following command at a terminal prompt to restart the NFS server
 
 `sudo systemctl restart nfs-kernel-server`
 
+
 then the below command, sudo ufw allow from the dedicated to any port nfs, is used on a Linux system with the firewall tool ufw to configure firewall rules for allowing access to an NFS server. The ip defines the source of the allowed traffic. In this case, it's restricting access to traffic originating from the IP address. You can replace this with a specific IP address or a subnet if you want to allow access from multiple machines.If we use the multiple nodes from CCE clusters as a client then we have to allow those nodes ip which are used to store the data as a `NFS_CLIENT` .
 
 `sudo ufw allow from 192.143.12.4 to any port nfs`
 
+
 Important Consideration:
+
 Crucial Points to Remember:
 
 Specificity: Although this command permits access from a single IP, if you need to permit access froTo start the NFS server, you can run the following command at a terminal prompt:m several computers, you might want to use a subnet or firewall groups.
@@ -70,6 +75,8 @@ for disable the firewall
 Now we can check the status of the firewall
 
 `sudo ufw status `
+
+
 
 
 
