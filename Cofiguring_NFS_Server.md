@@ -68,10 +68,9 @@ Important Consideration:
 Crucial Points to Remember:
 
 Specificity: Although this command permits access from a single IP, if you need to permit access froTo start the NFS server, you can run the following command at a terminal prompt:m several computers, you might want to use a subnet or firewall groups.
+
 Security: It may not always be the best idea to provide access from any port using any. It is advised to specifically identify the ports your NFS server is utilizing if you are aware of them in order to improve security.Crucial Points to Remember:
 
-Specificity: Although this command permits access from a single IP, if you need to permit access from several computers, you might want to use a subnet or firewall groups.
-Security: It may not always be the best idea to provide access from any port using any. It is advised to specifically mention the ports your NFS server is utilizing if you are aware of them for.
 
 Configuring the NFS Server: Keep in mind that this operation simply sets up the firewall. Additionally, you must set up the NFS server itself using tools like rpc.mountd or the configuration settings in your NFS server software to permit access from the designated IP address or subnet.
 
