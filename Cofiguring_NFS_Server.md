@@ -94,6 +94,11 @@ Now we can check the status of the firewall
 
 `sudo ufw status `
 
+--------
+
+Then the next step is setting up the `NFS_CLIENT`-------------------
+
+
 
 
 
