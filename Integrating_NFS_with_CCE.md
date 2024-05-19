@@ -45,7 +45,8 @@ spec:
     - ReadWriteMany  #adjust access mode (ReadWriteOnce,ReadWriteMany)
   resources:
     requests:
-      storage: 10Gi  #adjust requested sizestorageClassName: " "    #leave empty if no storage class is used
+      storage: 10Gi  #adjust requested size
+storageClassName: " "    #leave empty if no storage class is used
 ```
 
 
