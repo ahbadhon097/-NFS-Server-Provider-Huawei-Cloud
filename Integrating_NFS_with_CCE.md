@@ -2,8 +2,8 @@
 
 **Prerequisite:**
 
-* We've to make sure about the CCE cluster is actice in Huawei cloud console.
-* And the require node has been pooled.
+* We've to make sure about the CCE cluster is running in Huawei cloud console.
+* And the required number of node has been pooled.
 
 
 **Define a YAML file specifying the NFS server details and storage characteristics:**
