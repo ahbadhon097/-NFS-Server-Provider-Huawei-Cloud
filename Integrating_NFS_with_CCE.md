@@ -79,4 +79,7 @@ spec:
      claimName: nfs-pvc
 ```
 
-  Replace my-pod with your desired pod name and adjust container details if needed.
+  
+**Replace my-pod with your desired pod name and adjust container details if needed.
+
+  Then select nodes for [configure NFS_Clienshare](https://github.com/ahbadhon097/-NFS-Server-Provider-Huawei-Cloud/blob/main/NFS_client_confuguration.md). 
