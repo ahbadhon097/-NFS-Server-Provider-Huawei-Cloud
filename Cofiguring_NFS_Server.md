@@ -123,4 +123,4 @@ sudo ufw status
 
 ---
 
-Then the next step is integrating the cce with NFS_server     ------------------->>>>
+Then the next step is [integrating the cce with NFS_server]([url](https://github.com/ahbadhon097/-NFS-Server-Provider-Huawei-Cloud/blob/main/Integrating_NFS_with_CCE.md))     ------------------->>>>
