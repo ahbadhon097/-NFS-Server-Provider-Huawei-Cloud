@@ -95,7 +95,7 @@ Now we can check the status of the firewall
 
 --------
 
-Then the next step is setting up the `NFS_CLIENT`-------------------
+Then the next step is setting up the `NFS_CLIENT`    ------------------->>>>
 
 
 
