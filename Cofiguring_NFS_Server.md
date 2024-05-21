@@ -56,16 +56,12 @@ On your ubuntu system, the NFS server is configured via the `/etc/exports` file.
 sudo vim /etc/exports
 ```
 
-```
-#/mnt/nfs_share 192.168.0.0/20 (rw,sync,no_subtree_check)   
-```
-
 ---
 
 After executing editor , we've to give the path of the directory where we want to get the access to read/write and sync the nfs server.You can configure the directories to be exported by adding them to the /etc/exports file. For example:
 
 ```
-mnt/nfs_share 
+#/mnt/nfs_share 192.168.0.0/20 (rw,sync,no_subtree_check)   
 ```
 
 ---
