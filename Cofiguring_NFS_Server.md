@@ -42,6 +42,10 @@ Change the ownership for new group and new user for the directory `/mnt/nfs_shar
 sudo chmod 777 /mnt/nfs_share
 ```
 
+```
+sudo chown -R nobody:nogroup /mnt/nfs_share
+```
+
 ---
 
 Then launch editor to  edit `/etc/exports` file for modifying the system configuration
@@ -50,6 +54,10 @@ On your ubuntu system, the NFS server is configured via the `/etc/exports` file.
 
 ```
 sudo vim /etc/exports
+```
+
+```
+#/mnt/nfs_share 192.168.0.0/20 (rw,sync,no_subtree_check)   
 ```
 
 ---
