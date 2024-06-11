@@ -129,9 +129,10 @@ spec:
 status:
   phase: Bound
 
-----------------------
+
 
 **Attaching PV to PVC in CCE storage:**
+
 
 `YAML`
 
@@ -219,7 +220,6 @@ status:
   capacity:
     storage: 10Gi
 
-    --------------------
 
 
 
