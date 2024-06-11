@@ -124,7 +124,10 @@ Now we can check the status of the firewall
 ```
 sudo ufw status 
 ```
-
 ---
+
+**Attaching the multiple EVS to provide the storage:
+We've to attach the EVS with the required pod to provide the storage and and store the file which will be created by client in the ECS.
+
 
 Then the next step is i[ntegrating the cce with NFS_server](https://github.com/ahbadhon097/-NFS-Server-Provider-Huawei-Cloud/blob/main/Integrating_NFS_with_CCE.md)
