@@ -129,7 +129,7 @@ spec:
 status:
   phase: Bound
 
-
+```
 
 **Attaching PV to PVC in CCE storage:**
 
@@ -220,7 +220,7 @@ status:
   capacity:
     storage: 10Gi
 
-
+```
 
 
 **Define a YAML file specifying the NFS server details and storage characteristics:**
