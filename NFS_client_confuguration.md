@@ -1,6 +1,6 @@
 **Installing NFS Client server**
 
-**Prerequisite **
+**Prerequisite**
 
 1. Create Workloads in CCE.
 2. Remote log in to the required pods.
