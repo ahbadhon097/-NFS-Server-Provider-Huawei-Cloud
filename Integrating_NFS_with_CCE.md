@@ -218,6 +218,8 @@ status:
   capacity:
     storage: 10Gi
 
+    --------------------
+
 
 
 **Define a YAML file specifying the NFS server details and storage characteristics:**
