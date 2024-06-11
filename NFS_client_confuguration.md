@@ -6,11 +6,9 @@
 ```
  sudo apt update
 ```
+-----------------------------
 
----
-
-**Install NFS Client Server Package:**
-
+**Install NFS Client Server Package:
 Install the nfs-common package to enable NFS client server functionality:
 
 ```
