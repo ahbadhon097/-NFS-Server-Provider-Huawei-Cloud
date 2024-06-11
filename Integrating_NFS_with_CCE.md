@@ -136,6 +136,7 @@ status:
 `YAML`
 
 ```
+
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
