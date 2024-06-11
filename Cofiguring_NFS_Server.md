@@ -126,7 +126,8 @@ sudo ufw status
 ```
 ---
 
-**Attaching the multiple EVS to provide the storage:
+**Attaching the multiple EVS to provide the storage:**
+
 We've to attach the EVS with the required pod to provide the storage and and store the file which will be created by client in the ECS.
 
 
